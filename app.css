@@ -32,6 +32,7 @@ header {
             }
 		}
 		a {
+            color: #0000FF;
             text-decoration: none;
 			padding: 0 0 4px;
 			&:hover {
