@@ -45,3 +45,16 @@ header {
 		}
 	}
 }
+.learninggoals {
+    list-style-type: none;
+    font-weight: bold;
+    ul {
+        margin-bottom: 15px;
+        list-style-type: disc;
+        font-weight: normal;
+    }
+}
+.img1 {
+    height: 400px;
+    width: 700px;
+}
