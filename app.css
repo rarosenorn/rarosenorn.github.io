@@ -2,6 +2,14 @@ body {
 	font-family: sans-serif;
 	margin: 0;
 }
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;us
+}
+h3 {
+    color: steelblue;
+}
 header {
 	display: flex;
 	align-items: center;
@@ -57,4 +65,10 @@ header {
 .img1 {
     height: 400px;
     width: 700px;
+}
+.shortlearninggoalstable {
+    border: 1px solid black;
+    td {
+        border: 1px solid gray;
+    }
 }

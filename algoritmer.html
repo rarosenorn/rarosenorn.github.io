@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rasmus Rosenørn - Algoritmer</title>
     <link rel="stylesheet" href="app.css" />
 </head>
+
 <body>
+
     <header>
         <span>Rasmus Rosenørn - Portefølje</span>
         <p> | </p>
@@ -20,32 +23,94 @@
             </ul>
         </nav>
     </header>
-    <h2>Læringsmål for Algoritmer</h2>
-    <ul class="learninggoals">
-        <li>Viden</li>
+    <main>
+        <h1>Valgfag - Algoritmer</h1>
+        <h2>Litteraturliste</h2>
         <ul>
-            <li>Forståelse af teorien bag ofte brugte algoritmer</li>
-            <li>Forståelse af typer af tids- og rumkompleksiteter</li>
-            <li>Forståelse af hvordan korrekte algoritmer påvirker en applikations effektivitet</li>
-            <li>Forståelse af typer af datastrukturer</li>
+            <li>[B] Algorithms and Data Structures - Supplementary Lecture Notes</li>
+            <li>[CLRS] Introduction to Algorithms (Fourth Edition)</li>
         </ul>
-        <li>Færdigheder</li>
+        <h2>Opgave - Formulering af læringsmål</h2>
+        <h3>Opgave 1: Læringsmål for Algoritmer</h3>
+        <h4>Beskrivelse af emne</h4>
+        <p>I faget algoritmer læres om typer af datastrukturer og
+            at løse forskellige typer af problemstillinger generisk gennem en række trin,
+            hvor at disse trin udgør en algoritme. Jeg har valgt dette emne fordi
+            det er nyttigt at kunne løse problemstillinger man møder på en effektiv måde
+            og at man træner sin problemløsningsevne ved at lave algoritmeopgaver.
+            Algoritmeopgaver bliver også ofte stillet som jobinterviewspørgsmål (formentlig
+            ikke i Danmark i så stor grad)</p>
+        <h4>Formulering af læringsmål</h4>
+        <h5>Langsigtede læringsmål</h5>
+        <ul class="learninggoals">
+            <li>Viden</li>
+            <ul>
+                <li>Forståelse af teorien bag ofte brugte algoritmer</li>
+                <li>Forståelse af typer af tids- og rumkompleksiteter</li>
+                <li>Forståelse af hvordan korrekte algoritmer påvirker en applikations effektivitet</li>
+                <li>Forståelse af typer af datastrukturer</li>
+            </ul>
+            <li>Færdigheder</li>
+            <ul>
+                <li>Anvende en algoritme for at løse en given problemstilling</li>
+                <li>Anvende en algoritme i C#</li>
+                <li>Anvende hensigtsmæssig datastruktur</li>
+                <li>Anvende værktøj til at analysere en algoritmes kompleksitet</li>
+            </ul>
+            <li>Kompetencer</li>
+            <ul>
+                <li>Identificere problemstilling der kræver algoritme</li>
+                <li>Identificere algoritme der løser given problemstilling</li>
+                <li>Tilegne sig ny viden omkring algoritmer for at løse problemstilling hvor der ikke kendes en løsning
+                </li>
+            </ul>
+        </ul>
+        <h5>Kortsigtede læringsmål</h5>
+        <table class="shortlearninggoalstable">
+            <thead>
+                <tr>
+                    <td>Uge</td>
+                    <td>Læringsmål</td>
+                    <td>Litteratur</td>
+                    <td>Øvelser</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>35</td>
+                    <td>Binær og lineær søgning, longest increasing subsequence, Erdos & Szekeres Theorem, logaritmer
+                    </td>
+                    <td>[B] 1.4-1.8</td>
+                    <td>[B] 1.7-1.12</td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td>Grundlæggende forståelse for algoritmer og datastrukturer + selection sort + sorting with swaps
+                    </td>
+                    <td>[B] 1.1-1.3</td>
+                    <td>[B] 1.1-1.6</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Opgave 2 - Kvalitetskriterier</h3>
+        <h4>Identifikation af kvalitetskriterier</h4>
         <ul>
-            <li>Anvende en algoritme for at løse en given problemstilling</li>
-            <li>Anvende en algoritme i C#</li>
-            <li>Anvende hensigtsmæssig datastruktur</li>
-            <li>Anvende værktøj til at analysere en algoritmes kompleksitet</li>
+            <li>Klarhed: klar beskrivelse af hvad der skal opnås</li>
+            <li>Målbarhed: e.g. et bestemt kapitel skal forstås</li>
+            <li>Tidsramme: klart defineret tidsramme for at opnå mål</li>
+            <li>Mulighed for feedback: feedback om læringsmål er korrekt ift. e.g. scope og overordnede læringsmål</li>
         </ul>
-        <li>Kompetencer</li>
-        <ul>
-            <li>Identificere problemstilling der kræver algoritme</li>
-            <li>Identificere algoritme der løser given problemstilling</li>
-            <li>Tilegne sig ny viden omkring algoritmer for at løse problemstilling hvor der ikke kendes en løsning</li>
-        </ul>
-    </ul>
-    <div>
-    <img class="img1" src="images/lærinsmålslide.png" />
-    </div>
-    <img class="img2" src="images/læringsmål.png" />
+        <h4>Anvendelse af kriterier</h4>
+        <p>Anvendes som en "målestol" til at kontrollere kvaliteten af de læringsmål der bliver sat, så de kan laves
+            om hvis de ikke er gode nok.</p>
+        <h3>Opgave 4: Formidling</h3>
+        <p>De kortsigtede mål understøtter de langsigtede mål ved at gøre dem konkrete
+            med en handlingsplan der kan følges, e.g. de langsigtede læringsmål "Foreståelse af teorien bag ofte brugte
+            algoritmer"
+            og "Anvende en algoritme for at løse en given problemstilling" bliver gjort konkret i de kortsigtede
+            læringsmål ved
+            litteraturen og øvelserne der planlægges.</p>
+    </main>
 </body>
+
 </html>
