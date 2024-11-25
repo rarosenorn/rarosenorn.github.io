@@ -72,14 +72,80 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>43</td>
-                    <td>Auth</td>
+                    <td>48</td>
+                    <td>Fokus på færdiggørelse af projekt</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        Uge 48 log:
+                    </td>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>47</td>
+                    <td>Errorhandling in Blazor</td>
+                    <td>ch. 6</td>
+                    <td>Bruge i hobbyprojekt</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        Uge 47 log:
+                    </td>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>46</td>
+                    <td>Errorhandling in Blazor</td>
+                    <td>ch. 6</td>
+                    <td>Bruge i hobbyprojekt</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        Uge 46 log:
+                    </td>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>45</td>
+                    <td>JS interop</td>
+                    <td>ch. 6</td>
+                    <td>Bruge i hobbyprojekt</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        Uge 45 log:
+                    </td>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>44</td>
+                    <td>Blazor Auth + Backend Auth med Supabase</td>
                     <td>ch. 9</td>
                     <td>Bruge i hobbyprojekt</td>
                 </tr>
                 <tr>
                     <td colspan="4">
-                        Uge 43 log:
+                        Uge 44 log: Med backend Auth på plads gennemgik jeg kapitlet om Auth hvor jeg lærte om
+                        hvordan man sætter Auth op på frontend med opbevaring af jwt i localstorage til AuthStateProvider og
+                        hvordan man logger ind/registrere/logger ud, hvordan man gør så man skal være authorized til en side
+                        eller vise a eller b på en side afhængigt af om man er authorized eller ikke mm.
+                    </td>
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td>Blazor Auth + Backend Auth med Supabase</td>
+                    <td>ch. 9</td>
+                    <td>Bruge i hobbyprojekt</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        Uge 43 log: Til backend auth brugte bogen en API med kun 2 brugere så brugte denne uge på
+                        at undersøge muligheder for backend auth og endte med at spore mig ind på Supabase som er FOSS 
+                        og har 50k gratis MAU og derefter en lav pris. Den fik også gode anmeldelser på reddit, stackexchange etc.
+                        I modsætning til Microsofts Azure Ad og Auth0 som har en relativt meget dyr plan, dvs. den
+                        ikke ville være god til public facing apps. Jeg fik sat mig ind i Supabase primært gennem ChatpGPTderes Docs.
                     </td>
                 </tr>
                 <tr>
@@ -96,7 +162,8 @@
                 </tr>
                 <tr>
                     <td colspan="4">
-                        Uge 41 log:
+                        Uge 41 log: Lærte om hvordan man hensigtsmæssigt laver API kald fra Blazor WebAssembly med at isolere logikken
+                        og bruge IHttpClientFactory til at instantiere forskellige konfigurationer af HttpClient.
                     </td>
                 </tr>
                 <tr>
@@ -107,7 +174,10 @@
                 </tr>
                 <tr>
                     <td colspan="4">
-                        Uge 40 log:
+                        Uge 40 log: Lærte om andre måder at genne state på i en webapp end i en database. Der er local storage hvor data gemmes i browseren
+                        og det gemmer tilstanden selvom man lukker webappen eller browseren. Der er in-memory hvor man gemmer i en singleton her gemmes tilstanden kun
+                        i webappens levetid, hvis den lukkes ned eller reloades er det en "ny" app og singleton objektet er nyt. Så er der URLen hvor man kan gemme tilstanden
+                        så man kan bogmærke en side. Jeg kom også ind på hvordan DI lifecycles er forskellige i blazorwasm og blazor server fra aspnetcore.
                     </td>
                 </tr>
                 <tr>
