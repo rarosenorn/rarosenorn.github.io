@@ -18,26 +18,81 @@
             </ul>
         </nav>
     </header>
-    Kom med på Team 4 i uge 38. Vi laver en webapplikation for virksomheden som tidligere har anvendt VirusTotal til at kontrollere om en Uri er
-    sikker. Efter VirusTotal er begyndt at opbevare information om søgningerne vil virksomheden gerne have lavet en webapp med samme funktion 
-    som ikke opbevarer information.
 
-    Vi laver derfor en webapplikation hvor kan man indtaste en Uri og få svar tilbage om der er fundet noget kompromitterende på e.g. hjemmesiden.
-    Hvis der ikke findes noget på en hjemmeside siger vi at der ikke er fundet noget negativt på den frem for at sige at den er positiv, for at undgå
-    falske positiver.
-
-    Webapplikationen fungerer på den måde at der gennem gratis sikkerheds API'er (e.g. Google Safe Browsing) kontrolleres om
-    den pågældende URI har en sikkerhedsbreach.
-
-    Jeg står for at lave frontend i Blazor Wasm og anvende algoritmer hvis behovet opstår.
-
-    Uge 39 log: Jeg satte mig ind i projektets artefakter og kodestruktur og begyndte på at lave controller, modeller, repo etc. 
-    for objektet SecurityVendor.
-
-    Uge 40 log: Jeg fik lavet controller for SecurityVendor færdig og rettet ind efter arkitekturen vi anvender i projektet.
-    Start på BlazorWasm frontend menu og layout efter Wireframe.
-
-    Uge 41 log: Ændre menubar fra sidebar til topbar og startet på frontend til søgesiden.
-
-    Uge 42 log: Efterårsferie
+    <main>
+        <h1>Projekt - LinkDefender</h1>
+        <h2>Projektbeskrivelse</h2>
+        <p>Webapplikation hvor der kan søges på om en URI er sikker. Vores samarbejdsvirksomhed, Norlys, har anvendt VirusTotal til at kontrollere om en URI er sikker, 
+           efter VirusTotal er begyndt op sælge data om søgninger ønsker Norlys et alternativ. Vores projekt er at lave noget der ligner VirusTotal hvor en URI bliver kontrolleret
+           ved API'er some Google Safe Browsing og vise en rapport på resultatet.</p>
+        
+        <h2>Min rolle i projektet</h2>
+        <p>Min rolle i projektet har været at lave frontend i Blazor og lave Auth med Supabase. Mit andet valgfag, Algoritmer, har ikke været relevant ift. projektet,
+            hvorfor jeg har lavet et sideprojekt hvor jeg har anvendt udvalgte algoritmer</p>
+        <table class="tableclass">
+            <thead>
+                <tr>
+                    <th>Uge</th>
+                    <th>Log</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>48</td>
+                    <td><b>Koblet frontend sammen med færdig backend:</b> efter korrekt opsætning af docker og https porte gik det fint med at få
+                        koblet de 2 sammen, andre properties end fra min dummyclass men med lidt tilretning af frontend resultat siden
+                        virkede det fint sammen. Api kald i seperat klasse.</td>
+                </tr>
+                <tr>
+                    <td>47</td>
+                    <td><b>Implementering af auth:</b> Opsætning af auth i Blazor med jwt token der lagres i LocalStorage med Blazored nuget package og
+                        en authstateprovider der giver komponenter adgang til authstate og indført krav om authentication på alle sider (på nær login)</td>
+                </tr>
+                <tr>
+                    <td>46</td>
+                    <td><b>Implementering af auth:</b> tog længere tid end forventet grundet længere søgning omkring muligheder til Auth, e.g.
+                        Supabase, Firebase, Microsoft Identity, Auth0 etc. Valgte Supabase grundet gode anmeldelser på reddit, stackoverflow
+                        etc. samt der også er mulighed for at have database der og prisplaner er gode </td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td><b>Udvikling af siden til login og registering:</b> Lavet på samme side med en toggle, god øvelse til brug af EditForm komponent og validering af input</td>
+                </tr>
+                <tr>
+                    <td>44</td>
+                    <td><b>Udvikling af siden til resultatet på søgningen:</b> Dette tog længere tid end forventet, lavede dummyclass til visning
+                        af resultat med de props som jeg forestillede mig der ville være ved rigtig rapport</td>
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td><b>Udvikling af siden til søgning:</b> I tvivl om vi kun skal have website uri eller også inkludere filer and andre uri'er. Som udgangspunkt kun website</td>
+                </tr>
+                <tr>
+                    <td>42</td>
+                    <td>Efterårsferie</td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td><b>Udvikling af topbar: </b>Ændre menubar fra sidebar til topbar og startet på frontend til søgesiden.</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td><b>SecurityVendor controller:</b> Jeg fik lavet controller for SecurityVendor færdig og rettet ind efter arkitekturen vi anvender i projektet.
+                        Start på BlazorWasm frontend menu og layout efter Wireframe.</td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td><b>Forståelse af projekt: </b>Jeg satte mig ind i projektets artefakter og kodestruktur og begyndte på at lave controller, modeller, repo etc.
+                        for objektet SecurityVendor.</td>
+                </tr>
+                <tr>
+                    <td>38</td>
+                    <td><b>Kom med på Team 4 i uge 38:</b> Vi laver en webapplikation for virksomheden som tidligere har anvendt VirusTotal til at kontrollere om en Uri er
+                        sikker. Efter VirusTotal er begyndt at opbevare information om søgningerne vil virksomheden gerne have lavet en webapp med samme funktion
+                        som ikke opbevarer information.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
 </html>
