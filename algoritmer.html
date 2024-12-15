@@ -24,9 +24,29 @@
     <main>
         <h1>Valgfag - Algoritmer</h1>
         <h2>Litteraturliste</h2>
-        <ul>
-            <li>[B] Algorithms and Data Structures - Supplementary Lecture Notes</li>
-            <li>[CLRS] Introduction to Algorithms (Fourth Edition)</li>
+        <ul style="list-style-type: none;">
+            <li><b>Bøger</b></li>
+            <ul>
+                <li>[B] Algorithms and Data Structures - Supplementary Lecture Notes</li>
+                <li>[CLRS] Introduction to Algorithms (Fourth Edition)</li>
+                <li>[S] Essential Algorithms</li>
+            </ul>
+            <li><b>Hjemmesider</b></li>
+            <ul>
+                Opgaver: https://www.hackerrank.com/
+                Opgaver: https://leetcode.com/
+            </ul>
+            <li><b>Youtube Videoer</b></li>
+            <ul>
+                Dijkstras Algorithm: https://www.youtube.com/watch?v=GazC3A4OQTE&t=1s&ab_channel=Computerphile
+                Mergesort: https://www.youtube.com/watch?v=3j0SWDX4AtU&t=394s&ab_channel=BroCode
+                Heapsort: https://www.youtube.com/watch?v=2DmK_H7IdTo&t=191s&ab_channel=MichaelSambol
+                Quicksort: https://www.youtube.com/watch?v=XE4VP_8Y0BU&ab_channel=Computerphile
+                Countingsort: https://www.youtube.com/watch?v=7zuGmKfUt7s&ab_channel=GeeksforGeeks
+                RedBlack trees: https://www.youtube.com/watch?v=qvZGUFHWChY&ab_channel=MichaelSambol
+                
+
+            </ul>
         </ul>
         <h2>Opgave - Formulering af læringsmål</h2>
         <h3>Opgave 1: Læringsmål for Algoritmer</h3>
@@ -95,8 +115,8 @@
                 <tr>
                     <td>47</td>
                     <td>graph algorithms</td>
-                    <td></td>
-                    <td></td>
+                    <td>Read about in book [S]</td>
+                    <td>Incoorporate and understand in project.</td>
                 </tr>
                 <tr>
                     <td colspan="4">
@@ -106,45 +126,50 @@
                 <tr>
                     <td>46</td>
                     <td>Graph algorithms</td>
-                    <td></td>
-                    <td></td>
+                    <td>Read about in book [S]</td>
+                    <td>Incoorporate and understand in project.</td>
                 </tr>
                 <tr>
                     <td colspan="4">
-                        Uge 46 log:
+                        Uge 46 log: I read and incoorporated Dijkstras algorithm in my project. I have a chronic illness that in some period leaves me unable to do much, therefore 
+                        I had to focus on finishing the project for the rest of the period.
                     </td>
                 </tr>
                 <tr>
                     <td>45</td>
                     <td>Greedy algorithms & graph algorithms</td>
-                    <td></td>
-                    <td></td>
+                    <td>Read about in book [S]</td>
+                    <td>Incoorporate and understand in project.</td>
                 </tr>
                 <tr>
                     <td colspan="4">
-                        Uge 45 log:
+                        Uge 45 log: Greedy algorithms are algorithms that find the optimal solution by, at each step, choosing the best option, e.g. Dijkstras algorithm 
+                        which finds the fastest path from node A to B given nodes and edges with weights.
                     </td>
                 </tr>
                 <tr>
                     <td>44</td>
                     <td>Divide & Conquer, Deterministic Selection</td>
-                    <td></td>
-                    <td></td>
+                    <td>Read about in book [S]</td>
+                    <td>Incoorporate and understand in project.</td>
                 </tr>
                 <tr>
                     <td colspan="4">
-                        Uge 44 log:
+                        Uge 44 log: Divide and conquer is a method that is used in many algorithms, e.g. merge sort. The concept is dividing the
+                        values into subarrays until atomized, then merge them and put them together into arrays that follows the wanted goal.
                     </td>
                 </tr>
                 <tr>
                     <td>43</td>
                     <td>Balanced search trees: Red-black trees, augmented search trees: Dynamic rank, interval trees, Fenwick trees</td>
-                    <td>[CLRS] ch. 13 + 17 [B] Section 2.1 + 2.2</td>
-                    <td>[CLRS] ex. 13.1-5, 13.1-6, 13.2-2, 13.3-2, 17.1-5, (17.1-7), 17.3-3, 17.3-5. p. (17-1). Programming exercises II</td>
+                    <td>Read about the trees</td>
+                    <td>Incoorporate and understand code in project</td>
                 </tr>
                 <tr>
                     <td colspan="4">
-                        Uge 43 log:
+                        Uge 43 log: Fenwick trees are a tree to efficiently find the cumulative value, its more efficient than normal because
+                        when inserting a value you have to update far less values than with a list. Red-black trees solve the problem of a normal binary search tree 
+                        where time complexity of O(n) is possible for example with the root value of 10 and values of 15, 20, 25, 30 because they all go the right.
                     </td>
                 </tr>
                 <tr>
@@ -164,18 +189,32 @@
                 </tr>
                 <tr>
                     <td colspan="4">
-                        Uge 41 log:
+                        Uge 41 log: Hashing is a data structure where information is stored as key value pairs, where the value is accessed by the key.
+                        Search trees are trees organized in a way that makes it more efficient to search for a value, binary search tree has a best case
+                        time complexity of O(logn) because the possible values are halved each time. unbalanced binary search tree are structure such
+                        that each node has a child that is less than to the left and greater than to the right. Searching you then look at the root
+                        element and see if the search key is equal to, greater than or less than, if greater than you go to the right etc.
                     </td>
                 </tr>
                 <tr>
                     <td>40</td>
                     <td>Lower bound for comparison based sorting, counting sort, radix sort, bucket sort. Stacks and queues.</td>
-                    <td>[CLRS] ch. 8 + 10</td>
-                    <td>[CLRS] ex. 8.1-1, 8.1-3, 8.2-6, 8.3-5, 10.1-3, 10.1-6, 10.2-5. p. 10-1</td>
+                    <td>Læs om og forstå algoritmerne i [S]</td>
+                    <td>Implementer algoritmer i C# kode og forstå</td>
                 </tr>
                 <tr>
                     <td colspan="4">
-                        Uge 40 log:
+                        Uge 40 log: Counting sort: Tæl hvormange af hvert tal der er i array og skriv ned i nyt array hvor hvert index svarer
+                        til tallet og tallet i indexet svarer til hvor mange af det tal der er. Derefter lav kumulative og så lav output array
+                        hvor et index indsættes på indeksets værdis plads og værdien nedsættes med en,
+                        til sidst har du det sorteret array. 
+                        Radix sort: her sorterer man først tallene ind i grupper pr. 1s digit og sorterer disse gruppe, derefter sorterer man pr. 10s etc. indtil 
+                        det højeste 'plads' Xs digit er sorterert, derefter konkatinerer man tallene og der er sorterert.
+                        Bucket sort er relativt simpel, man propper elementer ned i buckets baseret på range, derefter sorterer man de 
+                        enkelte buckets med e.g. insertion sort og så konkatinerer man bucketse igen.
+                        Stacks og Queues er ret simple, en stack er LIFO, og queue er FIFO i.e. hhv. en stak tallerkener,
+                        hvor den øverste tallerken der er sat ned sidst blive taget først og i et supermarked hvor det er først blev sat på hylden
+                        gerne skulle tages først.
                     </td>
                 </tr>
                 <tr>
@@ -192,14 +231,19 @@
                 <tr>
                     <td>38</td>
                     <td>Mergesort, heapsort, priority queues, quicksort, median, randomized selection</td>
-                    <td>[CLRS] 2.3, 6, 7, 9.1-9.2</td>
-                    <td>[CLRS] ex. 6.1-4, 6.1-6, 6.1-7, 6.3-3,
-                        prb. 2-1, (2-4), 6-1, 6-2,  ex. 7.1-2, 7.2-3, 7.3-2 p. 9-1
-                    </td>
+                    <td>Læs om og forstå algoritmerne i [S]</td>
+                    <td>Implementer algoritmer i C# kode og forstå</td>
                 </tr>
                 <tr>
                     <td colspan="4">
-                        Uge 38 log:
+                        Uge 38 log: Bruger for lang tid på 'dybde opgaver' som eksempelvis beviser for algoritmer. Jeg har begrænset
+                        energi grundet kronisk sygdom, hvorfor jeg begynder at fokusere på hvordan algoritmer virker, hvordan de implementeres
+                        øve opgave og andre mere overfladiske aktiviteter som er mere direkte relevant ift. programmering. HeapSort fungerer ved
+                        at heapify ved at lave et array til max heap hvor det er et binary tree hvor hver parent er mindst så stor som dets børn,
+                        roden indsættes så ved det højeste index. Gentages med array.lenght - 2 etc..
+                        Quicksort fungerer ved at vælge et pivot index og resten af arrayet sættes til højre eller venstre hhv. hvis det tallet
+                        er større eller mindre. Derefter er pivot korrekt positioneret og der 2 subarrays rundt om pivot hvor der vælges et nyt
+                        pivot og samme proces foretages. Til dette anvender jeg istedet bogen Essential Algorithms af Rod Stephens
                     </td>
                 </tr>
                 <tr>
